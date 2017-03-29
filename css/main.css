@@ -1,0 +1,379 @@
+h1 {
+  font-size: 80px;
+  line-height: 24px;
+  font-family: "NoteraPersonalUseOnly";
+  color: #313131; }
+
+h2 {
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "RalewaySemiBold";
+  color: #424242; }
+
+h3 {
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "RalewayRegular";
+  color: #424242; }
+
+h4 {
+  font-size: 13px;
+  line-height: 26px;
+  font-family: "RalewaySemiBold";
+  color: #ffb79b; }
+
+h5 {
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "RalewaySemiBold";
+  color: #ffb79b; }
+
+body {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "RalewayRegular";
+  color: #424242;
+  background: url("../images/bodyBg.gif"); }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+input[type="text"], input[type="email"], textarea {
+  font-family: "RalewaySemiBold";
+  color: #313131;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #ececec;
+  border: none;
+  outline: none; }
+  input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #313131;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease;
+            transition: opacity 0.4s ease; }
+  input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder {
+    color: #313131;
+    opacity: 1;
+    transition: opacity 0.4s ease; }
+  input[type="text"]:-moz-placeholder, input[type="email"]:-moz-placeholder, textarea:-moz-placeholder {
+    color: #313131;
+    opacity: 1;
+    transition: opacity 0.4s ease; }
+  input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #313131;
+    opacity: 1;
+    transition: opacity 0.4s ease; }
+  input[type="text"]:focus::-webkit-input-placeholder, input[type="email"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease;
+            transition: opacity 0.4s ease; }
+  input[type="text"]:focus::-moz-placeholder, input[type="email"]:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.4s ease; }
+  input[type="text"]:focus:-moz-placeholder, input[type="email"]:focus:-moz-placeholder, textarea:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.4s ease; }
+  input[type="text"]:focus:-ms-input-placeholder, input[type="email"]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.4s ease; }
+
+input[type="submit"], input[type="text"], input[type="email"], textarea, button[type="submit"], button.open, button.close {
+  border: none;
+  outline: none; }
+
+input[type="submit"] {
+  padding: 15px;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "RalewaySemiBold";
+  color: #fff;
+  background-color: #ffb79b;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out; }
+  input[type="submit"]:active {
+    -webkit-transform: translate(2px, 2px);
+    -ms-transform: translate(2px, 2px);
+    transform: translate(2px, 2px); }
+  input[type="submit"]:hover {
+    background-color: #d89a82; }
+
+/********************************************* NAV *********************************************/
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 1px 1px #cecece;
+  background-color: #fff; }
+  nav div.col-lg-2 {
+    padding-right: 0px; }
+  nav form {
+    padding: 0px;
+    margin: 0 auto;
+    margin-left: 0px;
+    max-width: 180px; }
+    nav form button[type="submit"] {
+      background-color: transparent;
+      margin: 0px auto;
+      padding: 16px;
+      border: none;
+      border-left: 1px solid #eaeaeb;
+      border-right: 1px solid #eaeaeb;
+      float: left; }
+    nav form input[type="text"] {
+      box-shadow: none;
+      display: inline-block;
+      border-right: 1px solid #eaeaeb;
+      padding: 19px 10px;
+      margin: 0 auto;
+      text-align: center;
+      width: 120px;
+      background-color: transparent;
+      font-family: "RalewaySemiBold";
+      color: #313131; }
+  nav ul.navigation, nav ul.social {
+    padding: 0px; }
+    nav ul.navigation li, nav ul.social li {
+      display: inline; }
+      nav ul.navigation li a, nav ul.social li a {
+        text-decoration: none;
+        -webkit-transition: color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out; }
+        nav ul.navigation li a:hover, nav ul.navigation li a:focus, nav ul.navigation li a:active, nav ul.social li a:hover, nav ul.social li a:focus, nav ul.social li a:active {
+          color: #ffb79b; }
+  nav ul.navigation {
+    margin: 19px auto 19px 100px; }
+    nav ul.navigation li {
+      margin-right: 35px; }
+      nav ul.navigation li a {
+        font-size: 12px;
+        line-height: 24px;
+        font-family: "RalewaySemiBold";
+        color: #313131; }
+  nav ul.social {
+    text-align: center;
+    margin: 19px auto; }
+    nav ul.social li {
+      margin-right: 15px; }
+      nav ul.social li:last-child {
+        margin-right: 10px; }
+      nav ul.social li a {
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "RalewaySemiBold";
+        color: #313131; }
+  nav button.showNavigation {
+    font-size: 16px;
+    font-family: "RalewaySemiBold";
+    margin: 8px auto;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: transparent; }
+  nav ul.navigationMD {
+    display: none;
+    position: absolute;
+    padding: 0px;
+    top: 85%;
+    max-width: 455px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #c4aeaf; }
+    nav ul.navigationMD li {
+      display: block;
+      margin: 0px auto; }
+      nav ul.navigationMD li a {
+        font-family: "RalewaySemiBold";
+        color: #313131;
+        display: block;
+        padding: 10px;
+        text-decoration: none; }
+        nav ul.navigationMD li a:hover {
+          background-color: #ffb79b;
+          color: #fff; }
+
+/********************************************* NAV *********************************************/
+/********************************************* SECTION#SLIDER *********************************************/
+section#slider {
+  padding-top: 80px; }
+  section#slider h1 {
+    margin: 40px auto 40px auto;
+    text-align: center; }
+  section#slider div.warcry {
+    text-align: center;
+    vertical-align: middle; }
+    section#slider div.warcry hr {
+      width: 50px;
+      border: none;
+      border-bottom: 1px solid #252536;
+      display: inline-block;
+      margin: 0px auto 4px auto; }
+    section#slider div.warcry h5 {
+      display: inline-block;
+      margin: 0 10px 50px 10px;
+      text-transform: uppercase; }
+  section#slider div.owl-dots {
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+    left: 0%; }
+
+/********************************************* SECTION#SLIDER *********************************************/
+/********************************************* SECTION#ABOUT *********************************************/
+section#about div.container {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #ececec; }
+  section#about div.container h2 {
+    margin: 40px auto 0px 10px;
+    border-bottom: 2px solid #ffb79b;
+    max-width: 95px;
+    padding-bottom: 30px; }
+  section#about div.container hr {
+    margin: 0 auto 0 10px; }
+  section#about div.container h3 {
+    font-family: "RalewaySemiBold";
+    margin: 30px auto 30px 10px; }
+    section#about div.container h3 span {
+      color: #ffb79b;
+      text-transform: uppercase; }
+  section#about div.container p {
+    margin: 0 10px; }
+  section#about div.container h4 {
+    margin: 0 auto 15px 10px;
+    text-transform: uppercase; }
+    section#about div.container h4:last-child {
+      margin-bottom: 40px; }
+    section#about div.container h4 span {
+      color: #424242;
+      text-transform: lowercase; }
+
+/********************************************* SECTION#ABOUT *********************************************/
+/********************************************* SECTION#COMMENTS *********************************************/
+section#comments {
+  display: none; }
+  section#comments h2 {
+    text-align: left;
+    margin: 60px 0px 0px 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ffb79b;
+    max-width: 180px; }
+  section#comments hr {
+    margin: 0 auto 30px 10px; }
+  section#comments form input[type="text"], section#comments form input#useremail, section#comments form input#webEmail, section#comments form textarea {
+    max-width: 550px;
+    width: 100%;
+    padding: 20px; }
+  section#comments form input[type="text"] {
+    margin: 0 20px 0 10px; }
+  section#comments form input#webEmail, section#comments form textarea {
+    display: block;
+    margin: 18px 10px;
+    width: 100%;
+    max-width: 1125px; }
+  section#comments form textarea {
+    max-height: 245px;
+    resize: none; }
+  section#comments form input[type="submit"] {
+    width: 100%;
+    max-width: 1125px;
+    margin: 0px 10px 40px 10px; }
+
+/********************************************* SECTION#COMMENTS *********************************************/
+/********************************************* SECTION#CLOSE *********************************************/
+section#close {
+  margin-top: 60px; }
+  section#close div.container-fluid div.col-lg-12 {
+    padding: 0px; }
+    section#close div.container-fluid div.col-lg-12 hr {
+      border: none;
+      border-bottom: 2px solid #ffb79b;
+      margin: 0 auto; }
+  section#close div.container button.open, section#close div.container button.close {
+    margin: 0 auto;
+    color: #fff;
+    background-color: #ffb79b;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out; }
+    section#close div.container button.open:hover, section#close div.container button.close:hover {
+      background-color: #d3947c; }
+  section#close div.container button.close {
+    display: none; }
+
+/********************************************* SECTION#CLOSE *********************************************/
+/********************************************* FOOTER *********************************************/
+footer h2 {
+  margin: 20px auto 0px 0px;
+  padding-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #ffb79b; }
+footer hr {
+  margin: 0 auto; }
+footer div.first {
+  text-align: left; }
+  footer div.first h2 {
+    max-width: 100px; }
+  footer div.first p {
+    margin: 25px auto 20px auto; }
+  footer div.first img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto; }
+  footer div.first a {
+    display: block;
+    text-align: center;
+    margin: 20px auto 30px auto;
+    max-width: 100%;
+    width: 100%;
+    text-decoration: none;
+    background-color: #ffb79b;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "RalewaySemiBold";
+    color: #fff;
+    padding: 15px 0px;
+    -webkit-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out; }
+    footer div.first a:hover {
+      background-color: #d3947c; }
+footer div.second h2 {
+  max-width: 135px; }
+footer div.second h5 {
+  margin: 25px auto 5px auto;
+  color: #424242; }
+footer div.second p {
+  margin: 0 auto; }
+footer div.second a {
+  display: block;
+  margin: 20px auto;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "RalewayRegular";
+  color: #ffb79b; }
+  footer div.second a:hover {
+    color: #d59a83; }
+footer div.third h2 {
+  max-width: 255px; }
+footer div.third p {
+  margin: 25px auto; }
+footer div.third form input[type="text"], footer div.third form input[type="email"] {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  padding: 20px; }
+footer div.third form input[type="email"] {
+  margin: 40px auto; }
+footer div.third form input[type="submit"] {
+  max-width: 100%;
+  width: 100%; }
+
+/********************************************* FOOTER *********************************************/

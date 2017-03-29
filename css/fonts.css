@@ -1,0 +1,40 @@
+/* font-family: "NoteraPersonalUseOnly"; */
+@font-face {
+	font-family: "NoteraPersonalUseOnly";
+	src: url("../fonts/NoteraPersonalUseOnly/Notera_PersonalUseOnly.eot");
+	src: url("../fonts/NoteraPersonalUseOnly/Notera_PersonalUseOnly.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/NoteraPersonalUseOnly/NoteraPersonalUseOnly.woff") format("woff"),
+	url("../fonts/NoteraPersonalUseOnly/NoteraPersonalUseOnly.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RalewayLight"; */
+@font-face {
+	font-family: "RalewayLight";
+	src: url("../fonts/RalewayLight/Raleway-Light.eot");
+	src: url("../fonts/RalewayLight/Raleway-Light.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RalewayLight/Raleway-Light.woff") format("woff"),
+	url("../fonts/RalewayLight/Raleway-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RalewayRegular"; */
+@font-face {
+	font-family: "RalewayRegular";
+	src: url("../fonts/RalewayRegular/Raleway-Regular.eot");
+	src: url("../fonts/RalewayRegular/Raleway-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RalewayRegular/Raleway-Regular.woff") format("woff"),
+	url("../fonts/RalewayRegular/Raleway-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RalewaySemiBold"; */
+@font-face {
+	font-family: "RalewaySemiBold";
+	src: url("../fonts/RalewaySemiBold/Raleway-SemiBold.eot");
+	src: url("../fonts/RalewaySemiBold/Raleway-SemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RalewaySemiBold/Raleway-SemiBold.woff") format("woff"),
+	url("../fonts/RalewaySemiBold/Raleway-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
